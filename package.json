@@ -1,0 +1,27 @@
+{
+    "name": "whatsapp-finance-bot",
+    "version": "1.0.0",
+    "description": "Bot financeiro para WhatsApp com registro de gastos e controle financeiro",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "whatsapp",
+        "bot",
+        "finance",
+        "personal-finance",
+        "baileys"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@hapi/boom": "^10.0.1",
+        "@whiskeysockets/baileys": "^6.4.0",
+        "moment": "^2.29.4",
+        "natural": "^8.0.1",
+        "nodemon": "^3.0.1",
+        "qrcode-terminal": "^0.12.0"
+    }
+}
